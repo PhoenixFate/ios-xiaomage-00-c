@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0BDEA6823F909A100FDBFE9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D0BDEA6723F909A100FDBFE9 /* main.c */; };
+		D0BDEA7523F909AE00FDBFE9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D0BDEA7423F909AE00FDBFE9 /* main.c */; };
+		D0BDEA8023F909B500FDBFE9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D0BDEA7F23F909B500FDBFE9 /* main.c */; };
+		D0BDEA8523F909F800FDBFE9 /* heart.c in Sources */ = {isa = PBXBuildFile; fileRef = D0BDEA8423F909F800FDBFE9 /* heart.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D0BDEA6223F909A100FDBFE9 /* CopyFiles */ = {
+		D0BDEA7023F909AE00FDBFE9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D0BDEA7B23F909B500FDBFE9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +34,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D0BDEA6423F909A100FDBFE9 /* ios-xiaomage-00-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ios-xiaomage-00-c"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0BDEA6723F909A100FDBFE9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D0BDEA7223F909AE00FDBFE9 /* day01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day01; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BDEA7423F909AE00FDBFE9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D0BDEA7D23F909B500FDBFE9 /* day02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day02; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BDEA7F23F909B500FDBFE9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D0BDEA8423F909F800FDBFE9 /* heart.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = heart.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D0BDEA6123F909A100FDBFE9 /* Frameworks */ = {
+		D0BDEA6F23F909AE00FDBFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BDEA7A23F909B500FDBFE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +62,8 @@
 		D0BDEA5B23F909A100FDBFE9 = {
 			isa = PBXGroup;
 			children = (
-				D0BDEA6623F909A100FDBFE9 /* ios-xiaomage-00-c */,
+				D0BDEA7323F909AE00FDBFE9 /* day01 */,
+				D0BDEA7E23F909B500FDBFE9 /* day02 */,
 				D0BDEA6523F909A100FDBFE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,37 +71,64 @@
 		D0BDEA6523F909A100FDBFE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0BDEA6423F909A100FDBFE9 /* ios-xiaomage-00-c */,
+				D0BDEA7223F909AE00FDBFE9 /* day01 */,
+				D0BDEA7D23F909B500FDBFE9 /* day02 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D0BDEA6623F909A100FDBFE9 /* ios-xiaomage-00-c */ = {
+		D0BDEA7323F909AE00FDBFE9 /* day01 */ = {
 			isa = PBXGroup;
 			children = (
-				D0BDEA6723F909A100FDBFE9 /* main.c */,
+				D0BDEA7423F909AE00FDBFE9 /* main.c */,
+				D0BDEA8423F909F800FDBFE9 /* heart.c */,
 			);
-			path = "ios-xiaomage-00-c";
+			path = day01;
+			sourceTree = "<group>";
+		};
+		D0BDEA7E23F909B500FDBFE9 /* day02 */ = {
+			isa = PBXGroup;
+			children = (
+				D0BDEA7F23F909B500FDBFE9 /* main.c */,
+			);
+			path = day02;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D0BDEA6323F909A100FDBFE9 /* ios-xiaomage-00-c */ = {
+		D0BDEA7123F909AE00FDBFE9 /* day01 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0BDEA6B23F909A100FDBFE9 /* Build configuration list for PBXNativeTarget "ios-xiaomage-00-c" */;
+			buildConfigurationList = D0BDEA7623F909AE00FDBFE9 /* Build configuration list for PBXNativeTarget "day01" */;
 			buildPhases = (
-				D0BDEA6023F909A100FDBFE9 /* Sources */,
-				D0BDEA6123F909A100FDBFE9 /* Frameworks */,
-				D0BDEA6223F909A100FDBFE9 /* CopyFiles */,
+				D0BDEA6E23F909AE00FDBFE9 /* Sources */,
+				D0BDEA6F23F909AE00FDBFE9 /* Frameworks */,
+				D0BDEA7023F909AE00FDBFE9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ios-xiaomage-00-c";
-			productName = "ios-xiaomage-00-c";
-			productReference = D0BDEA6423F909A100FDBFE9 /* ios-xiaomage-00-c */;
+			name = day01;
+			productName = day01;
+			productReference = D0BDEA7223F909AE00FDBFE9 /* day01 */;
+			productType = "com.apple.product-type.tool";
+		};
+		D0BDEA7C23F909B500FDBFE9 /* day02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BDEA8123F909B500FDBFE9 /* Build configuration list for PBXNativeTarget "day02" */;
+			buildPhases = (
+				D0BDEA7923F909B500FDBFE9 /* Sources */,
+				D0BDEA7A23F909B500FDBFE9 /* Frameworks */,
+				D0BDEA7B23F909B500FDBFE9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = day02;
+			productName = day02;
+			productReference = D0BDEA7D23F909B500FDBFE9 /* day02 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +140,10 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Phoenix Fate";
 				TargetAttributes = {
-					D0BDEA6323F909A100FDBFE9 = {
+					D0BDEA7123F909AE00FDBFE9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D0BDEA7C23F909B500FDBFE9 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -109,17 +161,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D0BDEA6323F909A100FDBFE9 /* ios-xiaomage-00-c */,
+				D0BDEA7123F909AE00FDBFE9 /* day01 */,
+				D0BDEA7C23F909B500FDBFE9 /* day02 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D0BDEA6023F909A100FDBFE9 /* Sources */ = {
+		D0BDEA6E23F909AE00FDBFE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0BDEA6823F909A100FDBFE9 /* main.c in Sources */,
+				D0BDEA8523F909F800FDBFE9 /* heart.c in Sources */,
+				D0BDEA7523F909AE00FDBFE9 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BDEA7923F909B500FDBFE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BDEA8023F909B500FDBFE9 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +297,7 @@
 			};
 			name = Release;
 		};
-		D0BDEA6C23F909A100FDBFE9 /* Debug */ = {
+		D0BDEA7723F909AE00FDBFE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -243,7 +305,23 @@
 			};
 			name = Debug;
 		};
-		D0BDEA6D23F909A100FDBFE9 /* Release */ = {
+		D0BDEA7823F909AE00FDBFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0BDEA8223F909B500FDBFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0BDEA8323F909B500FDBFE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -263,11 +341,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0BDEA6B23F909A100FDBFE9 /* Build configuration list for PBXNativeTarget "ios-xiaomage-00-c" */ = {
+		D0BDEA7623F909AE00FDBFE9 /* Build configuration list for PBXNativeTarget "day01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0BDEA6C23F909A100FDBFE9 /* Debug */,
-				D0BDEA6D23F909A100FDBFE9 /* Release */,
+				D0BDEA7723F909AE00FDBFE9 /* Debug */,
+				D0BDEA7823F909AE00FDBFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BDEA8123F909B500FDBFE9 /* Build configuration list for PBXNativeTarget "day02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BDEA8223F909B500FDBFE9 /* Debug */,
+				D0BDEA8323F909B500FDBFE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
